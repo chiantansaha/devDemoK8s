@@ -5,6 +5,7 @@ var handleRequest = function(request, response) {
   response.writeHead(200);
   response.write('****************************\n');
   response.write('* Greetings from the DEMO! *\n');
+  response.write('* -- Chirantan Saha -- *\n');
   response.end(  '****************************\n');
 };
 var www = http.createServer(handleRequest);
